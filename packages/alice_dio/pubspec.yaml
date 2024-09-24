@@ -15,7 +15,10 @@ environment:
   flutter: ">=3.3.0"
 
 dependencies:
-  alice: ^1.0.0-dev.9
+  alice:
+    git: 
+      url: https://github.com/sribuu/alice-sribuu.git
+      path: packages/alice
   dio: ^5.4.3+1
   flutter:
     sdk: flutter
